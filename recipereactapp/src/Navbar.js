@@ -5,8 +5,8 @@ function Navbar() {
         <div className="navbar">
             <img className="logo" src='images/logo.png' alt="logo" />
             <div className="navlinks">
-                <a href="#">Search</a>
-                <a href="#">Reach Us</a>
+                <a href="/#">Search</a>
+                <a href="/#">Reach Us</a>
             </div>
         </div>
     )
