@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  overflow-x: hidden;
+}
+.navbar {
+  margin:0 1vw;
+}
+.logo {
+  float:left;
+  height:80px;
+  width:auto;
+}
+.navlinks {
+  float:right;
+  align-items: center;
+  margin:4vh 0;
+}
+.navlinks a {
+  color:white;
+  margin:0 2vw;
+  text-decoration: none;
+}
+.header {
+  height:100vh;
+  width:100vw;
+  background-image: url("./images/burger.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+  text-align: center;
+  display: block;
+  margin:0 auto;
+}
+.text-heading {
+  font-size: 100px;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-top: 20vh;
+}
+.text-heading-2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10vh;
+}
+.App {
+  background-color: #242424;
+  color: white;
+}
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.recipe {
+  display: block;
+  margin:2vh auto;
+  color:black;
+  background-color: white;
+  height:70vh;
+  width:20vw;
+  border-radius: 20px;
+}
+.recipe h1 {
+  font-size: 20px;
+}
+.recipe img {
+  height: 30vh;
+  width:100%;
+}
+.recipe ol {
+  /* list-style-image: url("images/soup.svg"); */
+  padding:5px;
+}
+li {
+  font-size: 15px;
+	margin: 0;
+	padding: 5px 0 5px 40px;
+	list-style: none;
+	background-image: url("images/soup.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}
+.search-form {
+  margin:5vh auto;
+}
+.connect-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10vh;
+}
+.connect-grid img {
+  height:40vh;
+  display: block;
+  margin: auto;
+}
+.connect-text {
+  align-self: center;
+  font-size: 25px;
+}
+.connect h1{
+  text-align: center;
+  margin: 10vh 0;
+}
+.footer {
+  padding:2vh;
+  background-color: yellowgreen;
+}
+.footer span{
+  color:red;
+}
